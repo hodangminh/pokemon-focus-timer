@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Xcode - user-specific
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Xcode - build products
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Built app bundle
+MacFocusTimer.app/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/
+
+# CocoaPods / Carthage (unused here, kept for safety)
+Pods/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Editor scratch
+*.swp
+*~
