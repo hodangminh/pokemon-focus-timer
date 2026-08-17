@@ -7,6 +7,8 @@ A pixel-art Pomodoro timer for macOS with animated Pokémon companions.
 
 Lives in the menu bar. Set a duration, name your task, and hit start — Pikachu, Leafeon, and Sylveon wander around the popup and chase your cursor while a Pokéball rolls beneath the timer. Completed sessions are logged to disk.
 
+## Demo
+
 https://github.com/user-attachments/assets/e9bd742a-20c7-4ac9-91e2-314f1bb424b4
 
 ## Features
