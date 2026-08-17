@@ -14,10 +14,27 @@ Lives in the menu bar. Set a duration, name your task, and hit start — Pikachu
 - Animated Pokémon that hop, bob, and dash toward the cursor
 - Rolling Pokéball animation while the timer is running
 
+## Download
+
+Grab the latest build from the [Releases page](https://github.com/hodangminh/pokemon-focus-timer/releases).
+
+The app is **ad-hoc signed** (not notarized), so macOS Gatekeeper will refuse
+to open it on first launch. To bypass:
+
+1. Unzip and drag `MacFocusTimer.app` into `/Applications`.
+2. **Right-click** the app → **Open** → **Open** in the dialog.
+   (Only needed the first time; after that it launches normally.)
+
+Alternatively, remove the quarantine attribute from the Terminal:
+
+```
+xattr -dr com.apple.quarantine /Applications/MacFocusTimer.app
+```
+
 ## Requirements
 
 - macOS 13+
-- Xcode 15+
+- Xcode 15+ (only if building from source)
 
 ## Build & run
 
