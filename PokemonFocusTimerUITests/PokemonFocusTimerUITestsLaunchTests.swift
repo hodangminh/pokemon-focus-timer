@@ -1,6 +1,6 @@
 import XCTest
 
-final class MacFocusTimerUITestsLaunchTests: XCTestCase {
+final class PokemonFocusTimerUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -1,6 +1,6 @@
 import Testing
 import Foundation
-@testable import MacFocusTimer
+@testable import PokemonFocusTimer
 
 @MainActor
 struct TimerViewModelTests {

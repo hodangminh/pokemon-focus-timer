@@ -12,50 +12,50 @@
 			containerPortal = C681D1AC3032D62C0029AC15 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C681D1B33032D62C0029AC15;
-			remoteInfo = MacFocusTimer;
+			remoteInfo = PokemonFocusTimer;
 		};
 		C681D1CC3032D62D0029AC15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C681D1AC3032D62C0029AC15 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C681D1B33032D62C0029AC15;
-			remoteInfo = MacFocusTimer;
+			remoteInfo = PokemonFocusTimer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C681D1B43032D62C0029AC15 /* MacFocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacFocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C681D1C13032D62D0029AC15 /* MacFocusTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacFocusTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C681D1CB3032D62D0029AC15 /* MacFocusTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacFocusTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C681D1B43032D62C0029AC15 /* PokemonFocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonFocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C681D1C13032D62D0029AC15 /* PokemonFocusTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonFocusTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C681D1CB3032D62D0029AC15 /* PokemonFocusTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonFocusTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C681D1EF3032D7AE0029AC15 /* Exceptions for "MacFocusTimer" folder in "MacFocusTimer" target */ = {
+		C681D1EF3032D7AE0029AC15 /* Exceptions for "PokemonFocusTimer" folder in "PokemonFocusTimer" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C681D1B33032D62C0029AC15 /* MacFocusTimer */;
+			target = C681D1B33032D62C0029AC15 /* PokemonFocusTimer */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C681D1B63032D62C0029AC15 /* MacFocusTimer */ = {
+		C681D1B63032D62C0029AC15 /* PokemonFocusTimer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C681D1EF3032D7AE0029AC15 /* Exceptions for "MacFocusTimer" folder in "MacFocusTimer" target */,
+				C681D1EF3032D7AE0029AC15 /* Exceptions for "PokemonFocusTimer" folder in "PokemonFocusTimer" target */,
 			);
-			path = MacFocusTimer;
+			path = PokemonFocusTimer;
 			sourceTree = "<group>";
 		};
-		C681D1C43032D62D0029AC15 /* MacFocusTimerTests */ = {
+		C681D1C43032D62D0029AC15 /* PokemonFocusTimerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MacFocusTimerTests;
+			path = PokemonFocusTimerTests;
 			sourceTree = "<group>";
 		};
-		C681D1CE3032D62D0029AC15 /* MacFocusTimerUITests */ = {
+		C681D1CE3032D62D0029AC15 /* PokemonFocusTimerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MacFocusTimerUITests;
+			path = PokemonFocusTimerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 		C681D1AB3032D62C0029AC15 = {
 			isa = PBXGroup;
 			children = (
-				C681D1B63032D62C0029AC15 /* MacFocusTimer */,
-				C681D1C43032D62D0029AC15 /* MacFocusTimerTests */,
-				C681D1CE3032D62D0029AC15 /* MacFocusTimerUITests */,
+				C681D1B63032D62C0029AC15 /* PokemonFocusTimer */,
+				C681D1C43032D62D0029AC15 /* PokemonFocusTimerTests */,
+				C681D1CE3032D62D0029AC15 /* PokemonFocusTimerUITests */,
 				C681D1B53032D62C0029AC15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		C681D1B53032D62C0029AC15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C681D1B43032D62C0029AC15 /* MacFocusTimer.app */,
-				C681D1C13032D62D0029AC15 /* MacFocusTimerTests.xctest */,
-				C681D1CB3032D62D0029AC15 /* MacFocusTimerUITests.xctest */,
+				C681D1B43032D62C0029AC15 /* PokemonFocusTimer.app */,
+				C681D1C13032D62D0029AC15 /* PokemonFocusTimerTests.xctest */,
+				C681D1CB3032D62D0029AC15 /* PokemonFocusTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C681D1B33032D62C0029AC15 /* MacFocusTimer */ = {
+		C681D1B33032D62C0029AC15 /* PokemonFocusTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C681D1D53032D62D0029AC15 /* Build configuration list for PBXNativeTarget "MacFocusTimer" */;
+			buildConfigurationList = C681D1D53032D62D0029AC15 /* Build configuration list for PBXNativeTarget "PokemonFocusTimer" */;
 			buildPhases = (
 				C681D1B03032D62C0029AC15 /* Sources */,
 				C681D1B13032D62C0029AC15 /* Frameworks */,
@@ -121,18 +121,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C681D1B63032D62C0029AC15 /* MacFocusTimer */,
+				C681D1B63032D62C0029AC15 /* PokemonFocusTimer */,
 			);
-			name = MacFocusTimer;
+			name = PokemonFocusTimer;
 			packageProductDependencies = (
 			);
-			productName = MacFocusTimer;
-			productReference = C681D1B43032D62C0029AC15 /* MacFocusTimer.app */;
+			productName = PokemonFocusTimer;
+			productReference = C681D1B43032D62C0029AC15 /* PokemonFocusTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C681D1C03032D62D0029AC15 /* MacFocusTimerTests */ = {
+		C681D1C03032D62D0029AC15 /* PokemonFocusTimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C681D1D83032D62D0029AC15 /* Build configuration list for PBXNativeTarget "MacFocusTimerTests" */;
+			buildConfigurationList = C681D1D83032D62D0029AC15 /* Build configuration list for PBXNativeTarget "PokemonFocusTimerTests" */;
 			buildPhases = (
 				C681D1BD3032D62D0029AC15 /* Sources */,
 				C681D1BE3032D62D0029AC15 /* Frameworks */,
@@ -144,18 +144,18 @@
 				C681D1C33032D62D0029AC15 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C681D1C43032D62D0029AC15 /* MacFocusTimerTests */,
+				C681D1C43032D62D0029AC15 /* PokemonFocusTimerTests */,
 			);
-			name = MacFocusTimerTests;
+			name = PokemonFocusTimerTests;
 			packageProductDependencies = (
 			);
-			productName = MacFocusTimerTests;
-			productReference = C681D1C13032D62D0029AC15 /* MacFocusTimerTests.xctest */;
+			productName = PokemonFocusTimerTests;
+			productReference = C681D1C13032D62D0029AC15 /* PokemonFocusTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C681D1CA3032D62D0029AC15 /* MacFocusTimerUITests */ = {
+		C681D1CA3032D62D0029AC15 /* PokemonFocusTimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C681D1DB3032D62D0029AC15 /* Build configuration list for PBXNativeTarget "MacFocusTimerUITests" */;
+			buildConfigurationList = C681D1DB3032D62D0029AC15 /* Build configuration list for PBXNativeTarget "PokemonFocusTimerUITests" */;
 			buildPhases = (
 				C681D1C73032D62D0029AC15 /* Sources */,
 				C681D1C83032D62D0029AC15 /* Frameworks */,
@@ -167,13 +167,13 @@
 				C681D1CD3032D62D0029AC15 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C681D1CE3032D62D0029AC15 /* MacFocusTimerUITests */,
+				C681D1CE3032D62D0029AC15 /* PokemonFocusTimerUITests */,
 			);
-			name = MacFocusTimerUITests;
+			name = PokemonFocusTimerUITests;
 			packageProductDependencies = (
 			);
-			productName = MacFocusTimerUITests;
-			productReference = C681D1CB3032D62D0029AC15 /* MacFocusTimerUITests.xctest */;
+			productName = PokemonFocusTimerUITests;
+			productReference = C681D1CB3032D62D0029AC15 /* PokemonFocusTimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C681D1AF3032D62C0029AC15 /* Build configuration list for PBXProject "MacFocusTimer" */;
+			buildConfigurationList = C681D1AF3032D62C0029AC15 /* Build configuration list for PBXProject "PokemonFocusTimer" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C681D1B33032D62C0029AC15 /* MacFocusTimer */,
-				C681D1C03032D62D0029AC15 /* MacFocusTimerTests */,
-				C681D1CA3032D62D0029AC15 /* MacFocusTimerUITests */,
+				C681D1B33032D62C0029AC15 /* PokemonFocusTimer */,
+				C681D1C03032D62D0029AC15 /* PokemonFocusTimerTests */,
+				C681D1CA3032D62D0029AC15 /* PokemonFocusTimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		C681D1C33032D62D0029AC15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C681D1B33032D62C0029AC15 /* MacFocusTimer */;
+			target = C681D1B33032D62C0029AC15 /* PokemonFocusTimer */;
 			targetProxy = C681D1C23032D62D0029AC15 /* PBXContainerItemProxy */;
 		};
 		C681D1CD3032D62D0029AC15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C681D1B33032D62C0029AC15 /* MacFocusTimer */;
+			target = C681D1B33032D62C0029AC15 /* PokemonFocusTimer */;
 			targetProxy = C681D1CC3032D62D0029AC15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,7 +412,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MacFocusTimer/Info.plist;
+				INFOPLIST_FILE = PokemonFocusTimer/Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,7 +421,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodangminh.MacFocusTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodangminh.PokemonFocusTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -445,7 +445,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MacFocusTimer/Info.plist;
+				INFOPLIST_FILE = PokemonFocusTimer/Info.plist;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +454,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodangminh.MacFocusTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodangminh.PokemonFocusTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -475,14 +475,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodangminh.MacFocusTimerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodangminh.PokemonFocusTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacFocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacFocusTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonFocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokemonFocusTimer";
 			};
 			name = Debug;
 		};
@@ -495,14 +495,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodangminh.MacFocusTimerTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodangminh.PokemonFocusTimerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacFocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacFocusTimer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokemonFocusTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PokemonFocusTimer";
 			};
 			name = Release;
 		};
@@ -513,14 +513,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodangminh.MacFocusTimerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodangminh.PokemonFocusTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MacFocusTimer;
+				TEST_TARGET_NAME = PokemonFocusTimer;
 			};
 			name = Debug;
 		};
@@ -531,21 +531,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hodangminh.MacFocusTimerUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodangminh.PokemonFocusTimerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = MacFocusTimer;
+				TEST_TARGET_NAME = PokemonFocusTimer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C681D1AF3032D62C0029AC15 /* Build configuration list for PBXProject "MacFocusTimer" */ = {
+		C681D1AF3032D62C0029AC15 /* Build configuration list for PBXProject "PokemonFocusTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C681D1D33032D62D0029AC15 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C681D1D53032D62D0029AC15 /* Build configuration list for PBXNativeTarget "MacFocusTimer" */ = {
+		C681D1D53032D62D0029AC15 /* Build configuration list for PBXNativeTarget "PokemonFocusTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C681D1D63032D62D0029AC15 /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C681D1D83032D62D0029AC15 /* Build configuration list for PBXNativeTarget "MacFocusTimerTests" */ = {
+		C681D1D83032D62D0029AC15 /* Build configuration list for PBXNativeTarget "PokemonFocusTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C681D1D93032D62D0029AC15 /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C681D1DB3032D62D0029AC15 /* Build configuration list for PBXNativeTarget "MacFocusTimerUITests" */ = {
+		C681D1DB3032D62D0029AC15 /* Build configuration list for PBXNativeTarget "PokemonFocusTimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C681D1DC3032D62D0029AC15 /* Debug */,

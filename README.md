@@ -26,14 +26,14 @@ Grab the latest build from the [Releases page](https://github.com/hodangminh/pok
 The app is **ad-hoc signed** (not notarized), so macOS Gatekeeper will refuse
 to open it on first launch. To bypass:
 
-1. Unzip and drag `MacFocusTimer.app` into `/Applications`.
+1. Unzip and drag `PokemonFocusTimer.app` into `/Applications`.
 2. **Right-click** the app → **Open** → **Open** in the dialog.
    (Only needed the first time; after that it launches normally.)
 
 Alternatively, remove the quarantine attribute from the Terminal:
 
 ```
-xattr -dr com.apple.quarantine /Applications/MacFocusTimer.app
+xattr -dr com.apple.quarantine /Applications/PokemonFocusTimer.app
 ```
 
 ## Requirements
@@ -43,7 +43,7 @@ xattr -dr com.apple.quarantine /Applications/MacFocusTimer.app
 
 ## Build & run
 
-Open `MacFocusTimer.xcodeproj` in Xcode and hit ⌘R. The app appears in the menu bar.
+Open `PokemonFocusTimer.xcodeproj` in Xcode and hit ⌘R. The app appears in the menu bar.
 
 To archive a signed build:
 
@@ -55,7 +55,7 @@ To archive a signed build:
 ⌘U in Xcode, or:
 
 ```
-xcodebuild test -project MacFocusTimer.xcodeproj -scheme MacFocusTimer -destination 'platform=macOS'
+xcodebuild test -project PokemonFocusTimer.xcodeproj -scheme PokemonFocusTimer -destination 'platform=macOS'
 ```
 
 ## Attribution
