@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/e9bd742a-20c7-4ac9-91e2-314f1bb424b4
 
 ## Download
 
-Grab the [latest build (v1.1)](https://github.com/hodangminh/pokemon-focus-timer/releases/latest) or browse all versions on the [Releases page](https://github.com/hodangminh/pokemon-focus-timer/releases).
+Grab the [latest build (v1.1.1)](https://github.com/hodangminh/pokemon-focus-timer/releases/latest) or browse all versions on the [Releases page](https://github.com/hodangminh/pokemon-focus-timer/releases).
 
 The app is **ad-hoc signed** (not notarized), so macOS Gatekeeper will refuse
 to open it on first launch. To bypass:
