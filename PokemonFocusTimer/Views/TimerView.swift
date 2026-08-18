@@ -78,6 +78,7 @@ struct TimerView: View {
                 } else {
                     Button("START") { vm.start() }
                         .buttonStyle(PixelButtonStyle(tint: Pixel.green, textColor: .white))
+                        .disabled(!vm.canStart)
                 }
                 Button("DONE") { vm.finish() }
                     .buttonStyle(PixelButtonStyle(tint: Pixel.blue, textColor: .white))

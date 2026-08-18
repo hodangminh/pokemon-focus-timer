@@ -1,12 +1,14 @@
 import AppKit
 import SwiftUI
+import UserNotifications
 
-final class AppDelegate: NSObject, NSApplicationDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDelegate {
     private var statusItem: NSStatusItem!
     private var popover: NSPopover!
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         terminateOtherInstances()
+        UNUserNotificationCenter.current().delegate = self
 
         popover = NSPopover()
         popover.contentSize = NSSize(width: 320, height: 420)
@@ -53,6 +55,12 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     @objc private func quit() {
         NSApp.terminate(nil)
+    }
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter,
+                                willPresent notification: UNNotification,
+                                withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        completionHandler([.banner, .sound])
     }
 
     private func togglePopover(_ sender: Any?) {

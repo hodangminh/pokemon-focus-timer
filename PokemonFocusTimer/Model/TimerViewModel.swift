@@ -1,6 +1,7 @@
 import Foundation
 import AppKit
 import Combine
+import UserNotifications
 
 @MainActor
 final class TimerViewModel: ObservableObject {
@@ -21,8 +22,12 @@ final class TimerViewModel: ObservableObject {
         return String(format: "%02d:%02d", m, s)
     }
 
+    var canStart: Bool {
+        !taskName.trimmingCharacters(in: .whitespaces).isEmpty && remainingSeconds > 0
+    }
+
     func start() {
-        guard !isRunning, remainingSeconds > 0 else { return }
+        guard !isRunning, canStart else { return }
         isRunning = true
         if startedAt == nil { startedAt = Date() }
         ticker = Timer.publish(every: 1, on: .main, in: .common)
@@ -101,9 +106,23 @@ final class TimerViewModel: ObservableObject {
         let name = taskName.trimmingCharacters(in: .whitespaces).isEmpty ? "Untitled" : taskName
         let entry = SessionEntry(taskName: name, startedAt: startedAt ?? Date(), durationSeconds: duration)
         entries = SessionLog.append(entry)
-        NSSound.beep()
+        notifyCompletion(taskName: name)
         startedAt = nil
         remainingSeconds = initialSeconds
+    }
+
+    private func notifyCompletion(taskName: String) {
+        NSSound(named: "Glass")?.play()
+
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { granted, _ in
+            guard granted else { return }
+            let content = UNMutableNotificationContent()
+            content.title = "Time's up!"
+            content.body = "Great work on \"\(taskName)\" — take a breather, you earned it!"
+            content.sound = .default
+            let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: nil)
+            UNUserNotificationCenter.current().add(request)
+        }
     }
 
     var canFinish: Bool {
